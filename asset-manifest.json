@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Pokemones-muestra/static/css/main.6e217ea3.chunk.css",
+    "main.js": "/Pokemones-muestra/static/js/main.42fd6691.chunk.js",
+    "main.js.map": "/Pokemones-muestra/static/js/main.42fd6691.chunk.js.map",
+    "runtime-main.js": "/Pokemones-muestra/static/js/runtime-main.6e75d92b.js",
+    "runtime-main.js.map": "/Pokemones-muestra/static/js/runtime-main.6e75d92b.js.map",
+    "static/js/2.1f981bc1.chunk.js": "/Pokemones-muestra/static/js/2.1f981bc1.chunk.js",
+    "static/js/2.1f981bc1.chunk.js.map": "/Pokemones-muestra/static/js/2.1f981bc1.chunk.js.map",
+    "static/js/3.3feced13.chunk.js": "/Pokemones-muestra/static/js/3.3feced13.chunk.js",
+    "static/js/3.3feced13.chunk.js.map": "/Pokemones-muestra/static/js/3.3feced13.chunk.js.map",
+    "index.html": "/Pokemones-muestra/index.html",
+    "static/css/main.6e217ea3.chunk.css.map": "/Pokemones-muestra/static/css/main.6e217ea3.chunk.css.map",
+    "static/js/2.1f981bc1.chunk.js.LICENSE.txt": "/Pokemones-muestra/static/js/2.1f981bc1.chunk.js.LICENSE.txt",
+    "static/media/Boton.b089c295.gif": "/Pokemones-muestra/static/media/Boton.b089c295.gif",
+    "static/media/Create.module.css": "/Pokemones-muestra/static/media/Create.97026939.jpg",
+    "static/media/Home.module.css": "/Pokemones-muestra/static/media/Home.a22bd427.jpg",
+    "static/media/Logo.c4dda904.jpg": "/Pokemones-muestra/static/media/Logo.c4dda904.jpg",
+    "static/media/Pokemones.module.css": "/Pokemones-muestra/static/media/backgraundPokemones.02562d33.png",
+    "static/media/loadingImg.a687be51.gif": "/Pokemones-muestra/static/media/loadingImg.a687be51.gif",
+    "static/media/noHaypokImg.6f19053f.gif": "/Pokemones-muestra/static/media/noHaypokImg.6f19053f.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e75d92b.js",
+    "static/js/2.1f981bc1.chunk.js",
+    "static/css/main.6e217ea3.chunk.css",
+    "static/js/main.42fd6691.chunk.js"
+  ]
+}
