@@ -1,0 +1,29 @@
+.container {
+  width: 85%;
+  height: 85%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 10px;
+  background-color: rgba(7, 6, 6, 0.322);
+}
+
+
+.containerImg{
+width: 40%;
+height: 50%;
+margin: 5% auto;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(7, 6, 6, 0.322); 
+color : white;
+}
+
+
+.containerImg2{
+width: 60%;
+height: 70%;
+margin: 5% auto;
+
+}

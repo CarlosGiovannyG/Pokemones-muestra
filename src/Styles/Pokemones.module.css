@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90%;
+    height: 89vh;
+    margin: -2px auto;
+    background: url("../Images/backgraundPokemones.png")center/cover;
+    border-radius:  15px;
+   
+}

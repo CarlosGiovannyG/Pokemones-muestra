@@ -1,0 +1,43 @@
+.ContenedorButton{
+margin:0 auto;
+width: 23%; 
+display: flex; 
+ flex-direction: row; 
+  background-color: rgba(0, 0, 0, 0.375);
+  border-radius: 10px;
+  border-top: 5px solid rgba(0, 0, 0, 0.575);
+  
+}
+
+.anteriorButton{
+ border-color:rgb(0, 173, 29);
+  color: white;
+  margin: 2%;
+  width: 30%;
+  height: 25px;
+  background: rgb(0, 173, 29);
+  cursor: pointer;
+}
+
+.numero{
+  width: 30%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   height: 25px;
+   margin: 2% auto -10% auto;
+   background: rgba(0, 0, 0, 0.775);
+  color:white;
+  font-size: 1.2em;
+}
+
+.siguienteButton{
+  border-color:rgb(173, 0, 0);
+  color: white;
+  margin: 2% auto -10% auto;
+  width: 30%;
+  height: 25px;
+  background: rgb(173, 0, 0);
+  cursor: pointer;
+  
+}

@@ -1,0 +1,9 @@
+.container{
+    width: 80%;
+    height: 90.5vh;
+    margin: 0 auto;    
+    background-image: url("../Images/Create.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+}
