@@ -69,3 +69,29 @@ h2{
   cursor: pointer;
 }
 
+@media (max-width: 480px){
+.container {
+  width: 180px; 
+  height:100px;
+  margin: 1% 1% 1% 4%;
+  border-radius: 10px;
+  border-top: 3px solid rgba(0, 0, 0, 0.651);
+  border-left: 3px solid rgba(255, 255, 255, 0.658);
+  box-shadow: 0 0px 5px rgb(0, 0, 0);
+}
+
+
+.Lec{
+  margin: 1% 2% 2%;
+  width: 60%;
+ background-color: rgba(0, 0, 0, 0.251);
+ display: block;
+ justify-content: center;
+ align-items: center;
+  align-items:flex-start;
+  font-size: 0.7em;
+  
+ 
+}
+
+}

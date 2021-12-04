@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState} from "react";
 import { useDispatch, useSelector } from "react-redux";
 import actions from '../../../Redux/Actions'
 import { Link, useNavigate } from 'react-router-dom';
@@ -22,7 +22,7 @@ const validateErrors = (newPoke) => {
 const Forms = () => {
     const dispatch = useDispatch()
     const navigate = useNavigate()
-    const inputFileRef = useRef()
+    //const inputFileRef = useRef()
     const types = useSelector(state => state.allTypes)
     const user = useSelector(state => state.userLogin)
     const [errors, setErrors] = useState({});
@@ -43,7 +43,7 @@ const Forms = () => {
         setErrors(validateErrors({ ...newPoke, [e.target.name]: e.target.value }))
     }
     const handleSelect = (e) => { setNewPoke({ ...newPoke, tipos: [...newPoke.tipos, e.target.value] }) }
-    const handleImage = () => { setNewPoke({ ...newPoke, image: inputFileRef.current.files[0] }) }
+    //const handleImage = () => { setNewPoke({ ...newPoke, image: inputFileRef.current.files[0] }) }
     const handleSubmit = (e) => {
         e.preventDefault();
         dispatch(actions.posPokemon(newPoke))
@@ -153,18 +153,7 @@ const Forms = () => {
                             />
                         </div>
                     </p>
-                    <p className={styles.Normal}>
-                        <div className={styles.Label}>
-                            <label >Dale una imagen</label>
-                            <input
-                                type="file"
-                                ref={inputFileRef}
-                                id='image'
-                                accept="image/*"
-                                onChange={handleImage}
-                            />
-                        </div>
-                    </p>
+                   
                     <div className={styles.Label}>
                         <label >Quá tipo es?</label>
                     </div>

@@ -41,3 +41,42 @@ display: flex;
   cursor: pointer;
   
 }
+
+
+@media (max-width: 480px){
+
+.ContenedorButton{
+width: 60%;  
+  border-radius: 5px; 
+  
+}
+
+
+.anteriorButton{
+ 
+  margin: 0% auto 0% auto;
+  width: 30%;
+  height: 50%;
+   font-size: .7em;
+}
+
+
+.numero{
+  width: 20%; 
+   height: 25%;
+   margin: 0% auto 0% auto;   
+  color:white;
+   font-size: .76em;
+}
+
+
+.siguienteButton{
+  
+  margin: 0% auto 0% auto;
+  width: 30%;
+  height: 50%;
+  font-size: .76em;
+  
+}
+
+}

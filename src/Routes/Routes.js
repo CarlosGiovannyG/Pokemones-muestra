@@ -13,7 +13,7 @@ const Rout = () => {
             <BrowserRouter>
                 <Nav />
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/Pokemones-muestra" element={<Home />} />
                     <Route path="/register" element={<Create />} />
                     <Route path="/login" element={<Create />} />
                     <Route path="/team" element={<Favorites />} />

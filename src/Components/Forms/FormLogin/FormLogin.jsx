@@ -32,7 +32,7 @@ const FormLogin = () => {
             email: '',
             password: '',
         })
-        navigate('/')
+        navigate('/Pokemones-muestra')
     }
 
     return (
@@ -68,7 +68,7 @@ const FormLogin = () => {
                     </p>
                     <input type="submit" value="Iniciar Sesion" className={styles.Button} />
                 </form>
-                <Link to='/'>
+                <Link to='/Pokemones-muestra'>
                     <button className={styles.ButtonClose}>X</button>
                 </Link>
             </div>

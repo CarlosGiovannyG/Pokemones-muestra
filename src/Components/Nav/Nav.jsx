@@ -13,12 +13,12 @@ const Nav = () => {
     const user = useSelector(state => state.userLogin)
     const login = useSelector(state => state.login)
     const enlaces = !login ? [
-        { id: 1, title: 'Home', path: '/' },
+        { id: 1, title: 'Home', path: '/Pokemones-muestra' },
         { id: 2, title: 'Pokemones', path: '/pokemones' },
         { id: 3, title: 'Registrase', path: '/register' },
         { id: 4, title: 'Iniciar Sesion', path: '/login' },
     ] : [
-        { id: 1, title: 'Home', path: '/' },
+            { id: 1, title: 'Home', path: '/Pokemones-muestra' },
         { id: 2, title: 'Pokemones', path: '/pokemones' },
         { id: 3, title: 'Crear', path: '/crear' },
         { id: 4, title: 'Mi Equipo', path: '/team' },
@@ -27,7 +27,7 @@ const Nav = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         dispatch(actions.outhLogin())
-        navigate('/')
+        navigate('/Pokemones-muestra')
     }
 
     return (
@@ -54,8 +54,7 @@ const Nav = () => {
             {login &&
                 <div className={styles.Dat1}>
                     <div className={styles.Dat}>
-                        <label className={styles.DatLab}>{user.user.username} </label>
-                        <img src={user.user.image} alt="logo" className={styles.DatImg} />
+                        <label className={styles.DatLab}>{user.user.username} </label>                       
                     </div>
                     <input
                         type="submit"

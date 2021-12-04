@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link, useParams, useNavigate } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 import actions from '../../Redux/Actions';
 
 import styles from '../../Styles/CardDetail.module.css';
 import Meter from '../Meter/Meter';
-import Loading from '../Loading/Loading'
 
 
 const CardDetail = () => {

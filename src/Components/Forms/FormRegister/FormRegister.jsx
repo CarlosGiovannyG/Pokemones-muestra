@@ -1,5 +1,5 @@
-import React, { useState, useRef } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import React, { useState } from "react";
+import { useDispatch } from "react-redux";
 import actions from '../../../Redux/Actions'
 
 
@@ -37,7 +37,7 @@ const FormRegister = () => {
 
     const dispatch = useDispatch()
     const navigate = useNavigate()
-    const inputFileRef = useRef()
+    //const inputFileRef = useRef()
 
 
 
@@ -64,7 +64,7 @@ const FormRegister = () => {
         setErrors(validateErrors({ ...newUser, [e.target.name]: e.target.value }))
     }
 
-    const handleImage = () => { setNewUser({ ...newUser, image: inputFileRef.current.files[0] }) }
+    //const handleImage = () => { setNewUser({ ...newUser, image: inputFileRef.current.files[0] }) }
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -217,23 +217,10 @@ const FormRegister = () => {
                         </div>
                     </p>
 
-                    <p className={styles.Normal}>
-                        <div className={styles.Label}>
-                            <label >Imagen de perfiln</label>
-                            <input
-                                type="file"
-                                ref={inputFileRef}
-                                id='image'
-                                accept="image/*"
-                                onChange={handleImage}
-                            />
-                        </div>
-                    </p>
-
                     <input type="submit" value="Registrarse" className={styles.Button} />
 
                 </form>
-                <Link to='/'>
+                <Link to='/Pokemones-muestra'>
                     <button className={styles.ButtonClose}  >X</button>
                 </Link>
             </div>

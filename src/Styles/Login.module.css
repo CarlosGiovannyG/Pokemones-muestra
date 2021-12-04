@@ -179,3 +179,27 @@ background: rgba(255, 255, 255, 0.645);
   font-size: 1em;
   cursor: pointer;
 }
+
+
+
+
+@media (max-width: 480px){ 
+ 
+.Titulo{
+  font-size:1em;  
+}
+
+.Form { 
+  height: 90%;
+}
+
+.Label {
+ width: 20em;
+ 
+}
+
+.Errores { 
+  font-size: .8em;  
+}
+
+}

@@ -17,15 +17,15 @@ const Card = ({ pokesToShow }) => {
                             {pok.image && <img src={pok.image} alt="imagen" className={styles.Img} />}
                         </div>
                         <div className={styles.Lec}>
-                            <h2>Nombre: {pok.name}</h2>
+                            <label>Nombre: {pok.name}</label>
                             <div className={styles.containerLec}>
                                 <label>Tipo:&nbsp;&nbsp; </label>
                                 {pok.types.length === 1 ? (
-                                    <h4>{pok.types[0]}  </h4>
+                                    <label>{pok.types[0]}  </label>
                                 ) : pok.types.length === 2 ? (
                                     <div>
-                                        <h4>{pok.types[0]}  </h4>
-                                        <h4>{pok.types[1]}  </h4>
+                                            <label>{pok.types[0]}  </label>
+                                        <label>{pok.types[1]}  </label>
                                     </div>
                                 ) : pok.types.length === 3 ? (
                                     <div>
